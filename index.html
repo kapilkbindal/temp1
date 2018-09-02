@@ -368,7 +368,7 @@
             <div class="contact-form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="#" name="submit-to-google-sheet" method="post" role="form" >
+              <form action="https://script.google.com/macros/s/AKfycbyuBsjNXHU1Ba4se7vqGCsyefbozBnZqVBqzC2_D_eHQGZnVgA/exec"  method="post" role="form" class="contactForm">
                 <div class="col-md-6 padding-right-zero">
                   <div class="form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -383,7 +383,7 @@
                 </div>
 				<div class="col-md-6 padding-right-zero">
                   <div class="form-group">
-                    <input type="mobile" class="form-control" name="mobile" id="mobile" placeholder="Your Contact Number" data-rule="minlen:10" data-msg="Please enter at least 10 numbers" />
+                    <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Contact Number" data-rule="minlen:10" data-msg="Please enter at least 10 numbers" />
                     <div class="validation"></div>
                   </div>
                 </div>
@@ -426,21 +426,7 @@
   <script src="js/wow.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/custom.js"></script>
-  <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyuBsjNXHU1Ba4se7vqGCsyefbozBnZqVBqzC2_D_eHQGZnVgA/exec'
-  const form = document.forms['submit-to-google-sheet']
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-
+  <script src="contactform/contactform.js"></script>
 
 </body>
 </html>
