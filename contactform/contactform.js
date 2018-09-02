@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
   "use strict";
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyuBsjNXHU1Ba4se7vqGCsyefbozBnZqVBqzC2_D_eHQGZnVgA/exec'
+
   //Contact
   $('form.contactForm').submit(function() {
     var f = $(this).find('.form-group'),
