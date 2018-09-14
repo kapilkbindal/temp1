@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-padding {
   padding: 60px 0px;
+  position: sticky;
 }
 
 #loader {
@@ -595,7 +596,7 @@ TESTIMONIAL
 
 .testimonial-item ul li blockquote::before {
   content: '“';
-  left: 30px;
+  left: 55px;
 }
 
 .testimonial-item ul li blockquote::before, .testimonial-item ul li blockquote::after {
@@ -609,7 +610,7 @@ TESTIMONIAL
 
 .testimonial-item ul li blockquote::after {
   content: '”';
-  right: 30px;
+  right: 55px;
 }
 
 /***********************************
