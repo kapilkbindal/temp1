@@ -513,9 +513,9 @@ ul.service-list li i {
   padding: 59px 30px;
   background-color: #BE9E21;
   backface-visibility: hidden;
-  -webkit-transform: rotateY(-180deg);
+  /* -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
+  transform: rotateY(-180deg); */
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s;
@@ -524,22 +524,24 @@ ul.service-list li i {
 
 .portfolio-item figure img {
   backface-visibility: hidden;
+  padding-bottom: 20px;
+  padding-top: 20px;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s
 }
 
-.portfolio-item figure:hover img, figure.hover img {
+/* .portfolio-item figure:hover img, figure.hover img {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg)
-}
+  transform: rotateY(180deg) */
+/* } */
 
-.portfolio-item figure:hover figcaption, figure.hover figcaption {
+/* .portfolio-item figure:hover figcaption, figure.hover figcaption {
   -webkit-transform: rotateY(0);
   -moz-transform: rotateY(0);
-  transform: rotateY(0)
-}
+  transform: rotateY(0) */
+/* } */
 
 /***********************************
 ************************************
