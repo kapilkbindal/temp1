@@ -715,6 +715,7 @@ team
     background-color: rgba(255, 67, 46, 0.8);
     color: #fff;
     padding: 0 2px;
+    border-radius: 50%;
     opacity: 0;
     text-align: center;
     -webkit-transition: all 0.3s;
