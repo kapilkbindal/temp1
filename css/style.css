@@ -531,6 +531,15 @@ ul.service-list li i {
   transition: all .5s
 }
 
+.portfolio-item figure img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 /* .portfolio-item figure:hover img, figure.hover img {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
