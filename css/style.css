@@ -552,6 +552,78 @@ ul.service-list li i {
   transform: rotateY(0) */
 /* } */
 
+div, article, section, header, footer, nav, li {
+	position:relative;
+}
+section.spacer {
+	padding:90px 0 70px;
+	color:#fcfcfc;
+}
+
+.spacer.green,.section.green {
+	background:#1bac91;
+}
+
+.spacer.green,.section.green h4 {
+	color:#fff;
+}
+
+.spacer.yellow,.section.yellow  {
+	background:#ffe873;
+}
+.spacer.orange,.section.orange {
+	background:#f36f36;
+}
+
+section.spacer.bg2 {
+	background: url(../img/bg/bg-2.jpg) 50% 0 no-repeat fixed;
+	width:100%;
+	height:auto;
+	margin:0;
+}
+
+section.spacer.bg3 {
+	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	width:100%;
+	height:auto;
+	margin:0;
+}
+
+section.spacer blockquote.large:before {
+	color:#eee;
+	opacity:0.6;
+}
+
+section.spacer blockquote cite {
+	color:#555;
+}
+
+blockquote {
+	font-size:18px;
+	border:none;
+	padding:0;
+  margin: 0 0 20px;
+}
+
+blockquote.large {
+	font-size:36px;
+	font-weight:700;
+	line-height:1.1em;
+}
+blockquote.large:before {
+	font-size:64px;
+	font-family: FontAwesome;
+	content: "\f10d";
+	margin-right:20px;
+}
+
+blockquote cite 						{ display:block; font-size:12px;}
+blockquote cite:before 					{ content:"\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited,
+blockquote cite a:visited 				{ color:#555; }
+
+
 /***********************************
 ************************************
 TESTIMONIAL
