@@ -552,7 +552,7 @@ ul.service-list li i {
   transform: rotateY(0) */
 /* } */
 
-/* section.spacer {
+section.spacer {
 	padding:90px 0 70px;
 	color:#fcfcfc;
 }
@@ -618,7 +618,7 @@ blockquote cite 						{ display:block; font-size:12px;}
 blockquote cite:before 					{ content:"\2014 \0020"; }
 blockquote cite a,
 blockquote cite a:visited,
-blockquote cite a:visited 				{ color:#555; } */
+blockquote cite a:visited 				{ color:#555; }
 
 
 /***********************************
@@ -676,7 +676,7 @@ TESTIMONIAL
 
 .testimonial-item ul li blockquote::before {
   content: '“';
-  left: 55px;
+  left: 5px;
 }
 
 .testimonial-item ul li blockquote::before, .testimonial-item ul li blockquote::after {
@@ -690,7 +690,7 @@ TESTIMONIAL
 
 .testimonial-item ul li blockquote::after {
   content: '”';
-  right: 55px;
+  right: 60px;
 }
 
 /***********************************
