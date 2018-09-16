@@ -68,6 +68,7 @@
 body {
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
+  text-align: right;
   color: #67696c;
   font-size: 16px;
   font-weight: 300;
@@ -635,7 +636,7 @@ TESTIMONIAL
 
 .bg-testicolor {
   background-color: RGBA(73, 84, 105, 0.61);
-  min-height: 390px;
+  min-height: 450px;
 }
 
 .white {
