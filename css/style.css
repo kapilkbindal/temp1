@@ -552,6 +552,19 @@ ul.service-list li i {
   transform: rotateY(0) */
 /* } */
 
+#quote {
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  min-height: 390px;
+}
+
+.bg-testicolor {
+  background-color: RGBA(73, 84, 105, 0.61);
+  min-height: 450px;
+}
+
+
+
 section.spacer {
 	padding:90px 0 70px;
 	color:#fcfcfc;
@@ -604,6 +617,8 @@ blockquote {
 
 blockquote.large {
 	font-size:36px;
+  text-align: center;
+  color: white;
 	font-weight:700;
 	line-height:1.1em;
 }
