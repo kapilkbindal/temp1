@@ -552,9 +552,6 @@ ul.service-list li i {
   transform: rotateY(0) */
 /* } */
 
-div, article, section, header, footer, nav, li {
-	position:relative;
-}
 section.spacer {
 	padding:90px 0 70px;
 	color:#fcfcfc;
